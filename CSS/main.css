@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+:root {
+    --bleu: #0065FC;
+    --bleu-clair: #DEEBFF;
+    --gris: #F2F2F2;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.bleu {
+    color: var(--bleu);
+}
+
+.bleu-clair {
+    color: var(--bleu-clair);
+}
+
+.gris {
+    color: var(--gris);
+}
+
+.bg-bleu {
+    background-color: var(--bleu);
+}
+
+.bg-bleu-clair {
+    background-color: var(--bleu-clair);
+}
+
+.bg-gris {
+    background-color: var(--gris);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+#logo {
+    height: 50px;
+}
+
+header a {
+    /* padding: 30px; */
+    height: 100%;
+    padding: 0 20px;
+    line-height: 100px;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+}
+
+li {
+    display: inline;
+    height:100%;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+ /* unvisited link */
+ a:link {
+    color: black;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: black;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: var(--bleu);
+    background-color: var(--gris);
+    transition: all 0.5s ease-in;
+  }
+  
+  /* selected link */
+  a:active {
+    color:var(--bleu);
+    background-color: var(--gris);
+  } 
+
+@media (min-width: 800px) {
+    
+  } 
+
+  @media (max-width: 800px) {
+    
+    #logo {
+        
+    }
+   
+  } 
