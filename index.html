@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="/CSS/main.css" rel="stylesheet">
     <title>Reservia</title>
 </head>
+
 <body>
     <header>
         <img id="logo" src="/images/logo/Reservia@3x.png" alt="logo">
@@ -20,6 +22,7 @@
         </nav>
         <a id="inscription" class="bleu" href="">S'inscrire</a>
     </header>
+
     <main>
         <section id="top-section">
             <div id="description">
@@ -34,24 +37,206 @@
                 <form id="search-form" action="#">
                     <i class="fas fa-map-marker-alt marker bg-gris"></i>
                     <input type="text" placeholder="Marseille, France" name="search">
-                    <button type="submit"> <span class="desk-only rechercher bg-bleu">Rechercher</span> <i class="fas fa-search mobile-only search-icon bg-bleu"></i> </button>
-                  </form>
+                    <button type="submit"> <span class="desk-only rechercher bg-bleu">Rechercher</span> <i
+                            class="fas fa-search mobile-only search-icon bg-bleu"></i> </button>
+                </form>
             </div>
             <div id="filtres">
                 <h1>Filtres</h1>
                 <ul class="ul-filtre">
-                    <li class="li-filtre"><i class="fas fa-money-bill-wave bleu bg-bleu-clair circle"></i><span class="filtre-name">Economique</span class="filtre-name"></li>
-                    <li class="li-filtre"><i class="fas fa-child bleu bg-bleu-clair circle"></i><span class="filtre-name">Familiale</span class="filtre-name"></li>
-                    <li class="li-filtre"><i class="fas fa-heart bleu bg-bleu-clair circle"></i><span class="filtre-name">Romantique</span class="filtre-name"></li>
-                    <li class="li-filtre"><i class="fas fa-dog bleu bg-bleu-clair circle"></i><span class="filtre-name">Animaux Autorisés</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-money-bill-wave bleu bg-bleu-clair circle"></i><span
+                            class="filtre-name">Economique</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-child bleu bg-bleu-clair circle"></i><span
+                            class="filtre-name">Familiale</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-heart bleu bg-bleu-clair circle"></i><span
+                            class="filtre-name">Romantique</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-dog bleu bg-bleu-clair circle"></i><span
+                            class="filtre-name">Animaux Autorisés</span class="filtre-name"></li>
                 </ul>
             </div>
             <div id="infos">
-                <i class="fas fa-info"></i>
+                <div class="info-icon-container"><i class="fas fa-info info-icon"></i></div>
                 <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
         </section>
-        <i class="fas fa-chart-line"></i>
+
+        <section id="hebergement">
+            <section id="hebergement-ville">
+                <h1>Hébergements à Marseille</h1>
+                <div class="hebergement-card-container">
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/auberge-la-cannebiere.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/auberge-la-cannebiere-small.jpg 750w,
+                                ./images/hebergements/3_medium/auberge-la-cannebiere.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Auberge la Cannebière</p>
+                            <p>nuit à partir de <span class="prix">25€</span></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-du-port.jpg" alt="auberge cannebiere" srcset="./images/hebergements/4_small/hotel-du-port-small 750w,
+                            ./images/hebergements/3_medium/hotel-du-port.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Hôtel du port</p>
+                            <p>nuit à partir de <span class="prix">52€</span></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-les-mouettes.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-les-mouettes-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-les-mouettes.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Hôtel les mouettes</p>
+                            <p>nuit à partir de <span class="prix">76€</span></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-de-la-mer.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-de-la-mer-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-de-la-mer.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Hotel de la mer</p>
+                            <p>nuit à partir de <span class="prix">46€</span></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/auberge-le-panier.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/auberge-le-panier-small.jpg 750w,
+                            ./images/hebergements/3_medium/auberge-le-panier.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Auberge Le Panier</p>
+                            <p>nuit à partir de <span class="prix">23€</span></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-v">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-chez-amina.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-chez-amina-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-chez-amina.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <p class="bold">Hôtel chez Amina</p>
+                            <p>nuit à partir de <span class="prix">96€</p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button id="afficher-plus">Afficher plus</button>
+            </section>
+
+            <section id="hebergement-populaires">
+                <h1>Les plus populaires <i class="fas fa-chart-line"></i></h1>
+                <div class="hebergement-populaire-card-container">
+                    <div class="hebergement-card-h">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-le-soleil.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-le-soleil-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-le-soleil.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <h1>Hôtel Le soleil du matin</h1>
+                            <p>nuit à partir de <span class="prix">128€</p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-h">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-le-soleil.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-le-soleil-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-le-soleil.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <h1></h1>
+                            <p></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hebergement-card-h">
+                        <div class="hebergement-image">
+                            <img src="./images/hebergements/3_medium/hotel-le-soleil.jpg" alt="auberge cannebiere"
+                                srcset="./images/hebergements/4_small/hotel-le-soleil-small.jpg 750w,
+                            ./images/hebergements/3_medium/hotel-le-soleil.jpg 1500w">
+                        </div>
+                        <div class="hebergement-text">
+                            <h1></h1>
+                            <p></p>
+                            <div class="stars">
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star bleu"></i>
+                                <i class="fas fa-star gris"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
     </main>
+
 </body>
+
 </html>
