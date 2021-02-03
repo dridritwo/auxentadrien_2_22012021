@@ -390,7 +390,7 @@ Hebergements
 
 .hebergement-card-v {
     width: calc((100% / 3) - 14px);
-    height: 140px;
+    height: 16vw;
     padding: 3px;
     background-color: white;
     font-size: 0.8rem;
@@ -402,7 +402,7 @@ Hebergements
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
-    height: 60px;
+    height: 7vw;
 }
 
 #hebergement-populaires {
@@ -411,7 +411,7 @@ Hebergements
 
 #hebergement-ville .hebergement-image {
     width: 100%;
-    height: 70px;
+    height: 8vw;
 }
 
 #hebergement img {
