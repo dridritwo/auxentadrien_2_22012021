@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/19c651280f.js" crossorigin="anonymous"></script>
     <link href="/CSS/main.css" rel="stylesheet">
     <title>Reservia</title>
 </head>
@@ -19,5 +20,38 @@
         </nav>
         <a id="inscription" class="bleu" href="">S'inscrire</a>
     </header>
+    <main>
+        <section id="top-section">
+            <div id="description">
+                <h1>
+                    Trouvez votre hébergement pour des vacances de rêve
+                </h1>
+                <p>
+                    En plein centre ville ou en pleine nature
+                </p>
+            </div>
+            <div id="search-bar">
+                <form id="search-form" action="#">
+                    <i class="fas fa-map-marker-alt marker bg-gris"></i>
+                    <input type="text" placeholder="Marseille, France" name="search">
+                    <button type="submit"> <span class="desk-only rechercher bg-bleu">Rechercher</span> <i class="fas fa-search mobile-only search-icon bg-bleu"></i> </button>
+                  </form>
+            </div>
+            <div id="filtres">
+                <h1>Filtres</h1>
+                <ul class="ul-filtre">
+                    <li class="li-filtre"><i class="fas fa-money-bill-wave bleu bg-bleu-clair circle"></i><span class="filtre-name">Economique</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-child bleu bg-bleu-clair circle"></i><span class="filtre-name">Familiale</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-heart bleu bg-bleu-clair circle"></i><span class="filtre-name">Romantique</span class="filtre-name"></li>
+                    <li class="li-filtre"><i class="fas fa-dog bleu bg-bleu-clair circle"></i><span class="filtre-name">Animaux Autorisés</span class="filtre-name"></li>
+                </ul>
+            </div>
+            <div id="infos">
+                <i class="fas fa-info"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div>
+        </section>
+        <i class="fas fa-chart-line"></i>
+    </main>
 </body>
 </html>
