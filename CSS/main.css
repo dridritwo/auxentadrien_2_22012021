@@ -42,6 +42,11 @@
 }
 
 h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+h2 {
     font-size: 1.4rem;
     font-weight: bolder;
 }
@@ -290,7 +295,7 @@ Filtres
     margin-bottom: 15px;
 }
 
-#filtres > h1 {
+#filtres > h2 {
     margin-right: 15px;
 }
 
@@ -461,7 +466,7 @@ button:focus {
         border-radius: 13px 13px 0px 0px;
     }
 
-    #hebergement-populaires > h1:first-of-type {
+    #hebergement-populaires > h2:first-of-type {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -537,7 +542,7 @@ button:focus {
         padding: 30px;
     }
 
-    #hebergement-populaires > h1:first-of-type {
+    #hebergement-populaires > h2:first-of-type {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -674,7 +679,7 @@ button:focus {
         padding: 10px;
      }
  
-     #activite > h1:first-of-type {
+     #activite > h2:first-of-type {
          margin: 20px 0px;
          width: 100%;
      }
@@ -712,7 +717,7 @@ button:focus {
          object-fit: cover;
      }
  
-     .activite-card h2 {
+     .activite-card h3 {
          margin: -4px 20px;
          height: 50px;
          font-weight: bolder;
@@ -729,7 +734,7 @@ button:focus {
        padding: 10px;
     }
 
-    #activite > h1:first-of-type {
+    #activite > h2:first-of-type {
         margin: 20px 0px;
         width: 100%;
     }
@@ -754,7 +759,7 @@ button:focus {
         object-fit: cover;
     }
 
-    .activite-card h2 {
+    .activite-card h3 {
         margin: -4px 20px;
         height: 30%;
         font-weight: bolder;
@@ -810,7 +815,7 @@ footer {
         padding: 5vw 5vw 10vw 5vw;
     }
 
-    .left h2 {
+    .left h3 {
         margin-top: 10px;
     }
 
