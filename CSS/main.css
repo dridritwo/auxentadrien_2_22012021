@@ -96,10 +96,16 @@ background-color: var(--gris);
 } 
 
 @media (min-width: 800px) {
+
+    body {
+        padding: 0px 3vw;
+    }
+
     header {
         display: flex;
         justify-content: flex-end;
         align-items: center;
+        position: relative;
     }
     
     #logo {
@@ -107,6 +113,7 @@ background-color: var(--gris);
         height: 50px;
         left: 15px;
         top: 25px;
+        cursor: pointer;
     }
   } 
 
@@ -772,7 +779,7 @@ footer {
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-    font-size: 0.6rem;
+    font-size: 1vw;
 }
 
 .left ul {
