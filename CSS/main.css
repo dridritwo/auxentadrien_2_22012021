@@ -185,8 +185,8 @@ Top Section
 Search Bar
 */
 
-#search-bar {
-
+input:focus {
+    outline: none;
 }
 
 #description, #search-bar, #infos {
@@ -245,6 +245,7 @@ Search Bar
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 #search-form input {
@@ -291,6 +292,7 @@ Filtres
     line-height: 50px;
     font-size: 35px;
     margin: 10px 10px 10px 0px;
+    cursor: pointer;
 }
 
 .filtre-name {
@@ -377,6 +379,7 @@ button:focus {
     -webkit-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.47);
     -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.47);
     box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.47);
+    cursor: pointer;
 }
 
 @media (min-width: 800px) {
@@ -650,6 +653,7 @@ button:focus {
     -moz-box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.47);
     box-shadow: 0px 0px 17px -1px rgba(0,0,0,0.47);
     border-radius: 15px;
+    cursor: pointer;
  }
 
  @media (min-width: 800px) {
@@ -748,3 +752,57 @@ button:focus {
         align-items: center;
     }
 } 
+
+/* 
+Footer
+ */
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5vw 5vw 5vw 5vw;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.left {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 0.6rem;
+}
+
+.left ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.left li {
+    display: block;
+    float: none;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+}
+
+@media (max-width: 800px) {
+    footer {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 5vw 5vw 10vw 5vw;
+    }
+
+    .left h1 {
+        margin-top: 10px;
+    }
+
+    .left {
+        font-size: 4vw;
+    }
+}
