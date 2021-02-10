@@ -41,6 +41,11 @@
     font-weight: bold;
 }
 
+h1 {
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
 /* 
 Header
 */
@@ -707,7 +712,7 @@ button:focus {
          object-fit: cover;
      }
  
-     .activite-card h1 {
+     .activite-card h2 {
          margin: -4px 20px;
          height: 50px;
          font-weight: bolder;
@@ -749,7 +754,7 @@ button:focus {
         object-fit: cover;
     }
 
-    .activite-card h1 {
+    .activite-card h2 {
         margin: -4px 20px;
         height: 30%;
         font-weight: bolder;
@@ -805,7 +810,7 @@ footer {
         padding: 5vw 5vw 10vw 5vw;
     }
 
-    .left h1 {
+    .left h2 {
         margin-top: 10px;
     }
 
