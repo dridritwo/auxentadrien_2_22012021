@@ -312,6 +312,10 @@ Filtres
     cursor: pointer;
 }
 
+.li-filtre:hover {
+    background-color: var(--gris);
+}
+
 .filtre-name {
     font-size: 15px;
     font-weight: 800;
