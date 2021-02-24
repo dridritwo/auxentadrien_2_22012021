@@ -312,7 +312,7 @@ Filtres
 }
 
 .li-filtre:hover {
-    background-color: var(--gris);
+    background-color: var(red);
 }
 
 .filtre-name {
